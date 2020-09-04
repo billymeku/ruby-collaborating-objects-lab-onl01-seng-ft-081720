@@ -20,7 +20,6 @@
 # end 
 
 
->>>>>>> 7eb16821eea26e3072452e4abffc9342e42482dd
 class MP3Importer
 
   attr_accessor :name, :path
@@ -40,16 +39,6 @@ class MP3Importer
 
 <<<<<<< HEAD
   
-=======
-  # def import
-  #   @@all.each do |file|
-
-  #   new_song = Song.new_by_filename(file)
-  #   new_song.artist.add_song(new_song)
-  #   # binding.pry
-  #   end
-  #   @@all
-  # end
 
 >>>>>>> 7eb16821eea26e3072452e4abffc9342e42482dd
  def import
