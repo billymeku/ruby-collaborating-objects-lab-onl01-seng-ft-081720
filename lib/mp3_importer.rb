@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+=======
+# class MP3Importer
+  
+#   attr_accessor :path
+
+#   def initialize(path)
+#     @path = path
+#   end
+
+#   def files
+#     @files ||= Dir.entries(@path).select {|song| !File.directory?(song) && song.end_with?(".mp3")}
+#   end
+
+#   def import
+#     files.each {|song| Song.new_by_filename(song)}
+#   end
+
+  
+# end 
+
+
+>>>>>>> 7eb16821eea26e3072452e4abffc9342e42482dd
 class MP3Importer
 
   attr_accessor :name, :path
@@ -15,7 +38,20 @@ class MP3Importer
     @@all
   end
 
+<<<<<<< HEAD
   
+=======
+  # def import
+  #   @@all.each do |file|
+
+  #   new_song = Song.new_by_filename(file)
+  #   new_song.artist.add_song(new_song)
+  #   # binding.pry
+  #   end
+  #   @@all
+  # end
+
+>>>>>>> 7eb16821eea26e3072452e4abffc9342e42482dd
  def import
     files.each {|song| Song.new_by_filename(song)}
   end

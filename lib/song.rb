@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # class Song 
 #   attr_accessor :name, :artist 
 
@@ -23,6 +24,9 @@
  
 # end
 class Song
+=======
+# class Song
+>>>>>>> 7eb16821eea26e3072452e4abffc9342e42482dd
 
     @@all = []
 
